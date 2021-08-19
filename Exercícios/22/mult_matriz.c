@@ -27,8 +27,12 @@ int main () {
             matrices[i][j] = malloc (col[i] * sizeof(matrices[i][j]));
 
         printf("Digite, separados por espaço ou quebra de linha, os %d valores a serem depositados na %dª matriz:\n", lin[i] * col[i], i + 1);
-        for (j = 0; j < lin[i] * col[i]; j++)
-            scanf(" %f", &matrices[i][j / col[i]][j % col[i]]);
+        for (j = 0; j < lin[i] * col[i]; j++){
+            if (!(scanf(" %f", &matrices[i][j / col[i]][j % col[i]]))) {
+                printf("Valor inválido\n");
+                return 1;
+            }
+        }
     }
 
     matrices[2] = malloc (lin[0] * sizeof(matrices[2]));
