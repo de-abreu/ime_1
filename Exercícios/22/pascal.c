@@ -27,10 +27,10 @@ int main () {
     }
 
     max = pascal[i - 1][k / 2];
-    while (max != 0) {
-        width++;
+    do {
         max /= 10;
-    }
+        width++;
+    } while (max != 0);
 
     k = 0;
     printf("\n");
