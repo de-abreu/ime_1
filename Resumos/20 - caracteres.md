@@ -4,7 +4,7 @@ Na linguagem C, caracteres são armazenados na memória como números inteiros e
 
 ## Tabela ASCII
 
-Lista 128 caracteres ordenados alfanuméricamente e numerados de 0 à 127. Esta pode ser estendida de maneira a acomodar valores de -1 a -128 e, assim, acomodar caracteres acentuados, os quais estão ausentes na tabela original.
+Lista 128 caracteres ordenados alfanuméricamente e numerados de 0 à 127. Esta pode ser estendida de maneira a acomodar valores de 0 a 255 e, assim, acomodar caracteres acentuados, os quais estão ausentes na tabela original.
 
 ### Caracteres de controle
 

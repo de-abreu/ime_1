@@ -234,13 +234,13 @@
 
 ### Resumo
 
-- [ ] Descrever o que são matrizes em C.
+- [x] Descrever o que são matrizes em C.
 
-- [ ] Declarar matrizes.
+- [x] Declarar matrizes.
 
-- [ ] Como acessar elementos de uma matriz e percorrer uma matriz.
+- [x] Como acessar elementos de uma matriz e percorrer uma matriz.
 
-- [ ] Utilizar matrizes para resolver problemas computacionais.
+- [x] Utilizar matrizes para resolver problemas computacionais.
 
 
 
@@ -248,11 +248,11 @@
 
 ### Resumo
 
-- [ ] Descrever como matrizes são armazenadas na memória.
+- [x] Descrever como matrizes são armazenadas na memória.
 
-- [ ] Descrever a relação entre matrizes e ponteiros.
+- [x] Descrever a relação entre matrizes e ponteiros.
 
-- [ ] Utilizar matrizes como parâmetros de funções.
+- [x] Utilizar matrizes como parâmetros de funções.
 
 
 
@@ -260,8 +260,8 @@
 
 ### Resumo
 
-- [ ] Definir o problema de busca de um elemento em um vetor.
+- [x] Definir o problema de busca de um elemento em um vetor.
 
-- [ ] Descrever o que é busca sequencial.
+- [x] Descrever o que é busca sequencial.
 
 - [ ] Descrever a vantagem de usar sentinela em busca sequencial.
