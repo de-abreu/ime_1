@@ -24,7 +24,7 @@ int main() {
 		else {
 			resultado = -1;
 		}
-		
+
 	}
 
 	while (seq < k) {
